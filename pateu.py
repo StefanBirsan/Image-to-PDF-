@@ -4,8 +4,7 @@ from PIL import Image
 def menu():
     print('[1] Create one PDF from one image')
     print('[2] Combine more PDFs')
-    print('[3] Pick how the file is going to be named')
-    print('[4] Exit')
+    print('[3] Exit')
     choice = int(input('Enter your choice: '))
     return choice
 
